@@ -24,6 +24,7 @@ a:hover {
 .container {
     display: grid;
     grid-template-rows: 2fr 6fr 1fr;
+    margin: 5%;
 }
 
 .header {
@@ -89,6 +90,12 @@ a:hover {
     display: grid;
     grid-column: 2/3;
     justify-content: flex-end;
+}
+
+.main__section__text {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 22px;
 }
 
 .main__button {
